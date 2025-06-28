@@ -1,0 +1,44 @@
+{
+  "name": "web-search-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that provides web search capabilities using OpenAI o3 model for Claude Code",
+  "main": "dist/index.js",
+  "bin": {
+    "web-search-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --target=node20 --outfile=dist/index.js --format=cjs",
+    "dev": "npm run build && node dist/index.js",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "web-search",
+    "openai",
+    "o3",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "openai": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.6",
+    "esbuild": "^0.25.5",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
