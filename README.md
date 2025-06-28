@@ -103,7 +103,7 @@ Searches the web using OpenAI o3 model with reasoning capabilities.
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/web-search-mcp.git
+git clone https://github.com/kazuki4real/web-search-mcp.git
 cd web-search-mcp
 npm install
 ```
@@ -158,7 +158,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- GitHub Issues: [Report bugs or request features](https://github.com/yourusername/web-search-mcp/issues)
+- GitHub Issues: [Report bugs or request features](https://github.com/kazuki4real/web-search-mcp/issues)
 - Documentation: See this README and inline code documentation
 
 ## Changelog

@@ -20,7 +20,15 @@
     "o3",
     "ai"
   ],
-  "author": "",
+  "author": "kazuki4real",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazuki4real/web-search-mcp.git"
+  },
+  "homepage": "https://github.com/kazuki4real/web-search-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/kazuki4real/web-search-mcp/issues"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
